@@ -1,0 +1,102 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    height: 33px;
+  }
+  
+  /* Styling for the "Create a New Blog" button */
+  .create-blog-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the blog form container */
+  .blog-form-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  /* Styling for the blog form */
+  .blog-form {
+    position: absolute;
+    width: 513px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+  }
+  
+  /* Styling for the form inputs */
+  .blog-form label,
+  .blog-form input,
+  .blog-form textarea {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  /* Styling for the form buttons */
+  .blog-form .btn-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .blog-form .btn-container button {
+    margin-left: 1rem;
+  }
+  
+  /* Styling for the blog post container */
+  .blog-post {
+    margin-top: 1rem;
+  }
+  
+  /* Styling for blog posts */
+  .post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .post h2 {
+    margin-top: 0;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+    /* bg color changes to black and txt color is white*/
+  .post {                                  
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* border-radius: none; */
+    border: 5px solid white;
+  }
+     
+  
+    

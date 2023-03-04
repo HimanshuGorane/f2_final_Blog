@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  
+
+ 
+</head>
+
+<body>
+
+  <!-- <div class="blog-post"></div> -->
+  <header class="header">
+    <h1 class="h1">Blog Making Website</h1>
+    <button class="create-blog-btn">Create a New Blog</button>
+  </header>
+
+  <!-- Blog Form Container -->
+  <div class="blog-form-container">
+    <!-- Blog Form -->
+    <form class="blog-form">
+      <p style="font-size: 29px;">Create a post </p>
+      <!-- <label for="title-input"> Title Name</label> -->
+      <input type="text" id="title-input" placeholder="Enter Your Heading...." style="height: 45px;" required />
+
+      <!-- <label for="content-input">Type Your Blog Here</label> -->
+      <textarea id="content-input" style="width:506px;height: 126px;" placeholder="Enter Your blog Post...." required></textarea>
+
+      <div class="btn-container">
+        <button type="submit" class="publish-btn" style="cursor: pointer;">Publish Post</button>
+        <button type="button" class="cancel-btn" style="cursor: pointer;">Cancel Post</button>
+        
+      </div>
+
+      <div class="close-btn">&times;</div>
+
+    </form>
+  </div>
+
+  <!-- Blog Post Container -->
+  <div class="blog-post"></div>
+
+  
+ <script src="script.js"></script>
+</body>
+
+</html>
